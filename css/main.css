@@ -11,5 +11,6 @@ html, body {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 75px 1fr;
+    grid-template-rows: 75px;
+    grid-auto-rows: minmax(min-content, max-content);
 }

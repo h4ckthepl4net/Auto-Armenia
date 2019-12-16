@@ -8,14 +8,18 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <title>Auto Armenia</title>
 </head>
-<body>
-    <div class="page_main_container">
-        <div class="header">
-            <?php
-                session_start();
-                include("html/header.html");
-            ?>
-        </div>
+<body class="page_main_container">
+    <div class="header">
+        <?php
+            session_start();
+            include("html/header.html");
+        ?>
+    </div>
+    <div class="content">
+
+    </div>
+    <div class="footer">
+
     </div>
 </body>
 </html>
