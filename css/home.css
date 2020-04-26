@@ -1,0 +1,51 @@
+/** Colors **/
+/* 
+#011526
+#024059
+#03738C
+#d4d4d4
+#e6e6e6
+#0D0D0D
+*/
+/*** Colors ***/
+
+/** Home styles **/
+
+.content-container {
+    display: grid;
+    grid-template-rows: min-content max-content;
+}
+
+.content-container-heading {
+    font-size: 20px;
+    color: #011526;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+/*** Home styles ***/
+
+/** Announcement styles **/
+
+.announcement-demo {
+
+}
+
+.announcement-demo-img-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.announcement-demo-img {
+    width: 90px;
+    height: 90px;
+}
+
+/*** Announcement styles ***/

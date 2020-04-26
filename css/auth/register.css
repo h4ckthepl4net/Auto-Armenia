@@ -1,0 +1,50 @@
+.first-last-name-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+}
+
+.birth-date-gender-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.birth-date-container, .gender-container {
+    text-align: center;
+}
+
+.birth-date {
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    height: 30px;
+    color: #03738C;
+}
+
+.birth-date-placeholder, .gender-placeholder {
+    font-size: 12px;
+    color: #03738C;
+}
+
+.birth-date-select-container {
+    display:grid;
+    justify-content: center;
+    grid-auto-flow: column;
+}
+
+.gender-radio-container {
+    display:grid;
+    height: 30px;
+    justify-content: center;
+    align-content: space-evenly;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+.gender-radio-container > input {
+    margin: 0;
+}
+
+.gender-radio-text {
+    font-size: 14px;
+    color: #03738C;
+}

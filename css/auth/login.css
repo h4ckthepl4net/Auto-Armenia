@@ -1,0 +1,11 @@
+.forgot-container {
+    text-align: right;
+}
+.forgot-password-link {
+    color: #03738C;
+    font-size: 12px;
+    text-decoration: none;
+}
+.forgot-password-link:hover {
+    text-decoration: underline;
+}
